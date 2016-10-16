@@ -1,0 +1,26 @@
+.background    { background: rgb(27, 2, 128);
+                 table-layout: fixed;
+                 border-spacing: 0;   
+                 background-image: url("http://www.iceis.pl/background-url/background-url-abstract_mysteriousblue.png");}
+.background td { padding: 0;          }
+.lava          { background: rgb(208, 46, 46); }
+.wall          { background: white;   }
+.floater       { background: red; }
+
+.actor  { position: absolute;  }
+.coin   { background: rgb(253, 168, 41); }
+.player { background: rgb(40, 40, 40); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(185, 30, 30);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
